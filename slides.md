@@ -37,7 +37,7 @@ export:
 
 [OpenProcessing](https://openprocessing.org/) 等でいろいろなクリエイターの作品が公開されている
 
-![openprocessing](openprocessing.png)
+![openprocessing](/openprocessing.png)
 
 ---
 
@@ -86,7 +86,7 @@ layout: fact
   - `draw` 関数にフックしてレンダリングされたフレームを記録するため FrameRate-safe
 - 汎用性
   - 多様なフォーマットを共通の API で使える
-  - ![format](format.png){width=340px}
+  - ![format](/format.png){width=340px}
 
 ---
 
