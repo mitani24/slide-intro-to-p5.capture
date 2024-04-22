@@ -37,7 +37,7 @@ export:
 
 [OpenProcessing](https://openprocessing.org/) 等でいろいろなクリエイターの作品が公開されている
 
-![openprocessing](/openprocessing.png)
+<img src="/openprocessing.png" alt="openprocessing.org" class="rounded shadow" />
 
 ---
 
@@ -86,7 +86,7 @@ layout: fact
   - `draw` 関数にフックしてレンダリングされたフレームを記録するため FrameRate-safe
 - 汎用性
   - 多様なフォーマットを共通の API で使える
-  - ![format](/format.png){width=340px}
+  - <img src="/format.png" alt="format table" class="w-96 rounded shadow" />
 
 ---
 
@@ -94,9 +94,9 @@ layout: fact
 
 - X や Discord で国内外のユーザーから好意的な反応を多数観測
   - 👦 < めっちゃ便利やん！
-  - 👧 < わいクリエイティブコーディングの講師やねんけど生徒に勧めるわ！
-- GitHub Stars: 200
-  - ![Star History Chart](https://api.star-history.com/svg?repos=tapioca24/p5.capture){width=350px}
+  - 👧 < 他の人にも勧めるわ！
+- GitHub Stars: 🌟200+
+  - <img src="https://api.star-history.com/svg?repos=tapioca24/p5.capture" alt="Star History Chart" class="w-80 rounded shadow" />
 - [p5js.org](https://p5js.org/) の Libraries セクションに掲載
 - 海外のおじさんが寄付くれた
 
@@ -104,23 +104,44 @@ layout: fact
 
 # 苦労した点
 
-- 実装の試行錯誤
-  - [MediaRecorder](https://developer.mozilla.org/ja/docs/Web/API/MediaRecorder) API は FrameRate-safe にならなかった
-  - ブラウザで使える mp4 エンコーダの実装が少ない
-- 設計の試行錯誤
-  - 異なるフォーマットを統一的に扱うためのクラス設計
-  - 録画の状態管理と UI を破綻なく更新する仕組み
+## 実装の試行錯誤
+
+- [MediaRecorder](https://developer.mozilla.org/ja/docs/Web/API/MediaRecorder) API は FrameRate-safe にならなかった
+- ブラウザで使える mp4 エンコーダの実装が少ない
+
+## 設計の試行錯誤
+
+- 異なるフォーマットを統一的に扱うためのクラス設計
+- 録画の状態管理と UI を破綻なく更新する仕組み
+
+## その他
+
 - ドキュメントを作り込む
 - リリース後の Issue, PullRequest 対応
+
+<style>
+h2 {
+  @apply mt-6! mb-2 text-2xl
+}
+</style>
 
 ---
 
 # 開発を通じて学んだこと
 
-- 課題に対してエレガントな解を提供できればちゃんと価値を届けられる
-  - インターネットの恩恵は偉大
-  - エレガントな解を導けるかどうかがすごく大事
-  - ちゃんとしてる感も大事
-- ライブラリ開発は様々な技術を学べる
-  - e.g. 設計, テスト, ドキュメンテーション, コミュニティとの関わり
-  - 情けは人の為ならず
+## 課題に対してエレガントな解を提供できればちゃんと価値を届けられる
+
+- インターネットの恩恵は偉大
+- エレガントな解を導けるかどうかがすごく大事
+- ちゃんとしてる感も大事
+
+## ライブラリ開発は様々な技術を学べる
+
+- e.g. 設計, テスト, ドキュメンテーション, コミュニティとの関わり
+- 情けは人の為ならず
+
+<style>
+h2 {
+  @apply mt-6! mb-2 text-2xl
+}
+</style>
